@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'master', url: 'https://github.com/tu_usuario/tu_repositorio.git'
+                git branch: 'master', url: 'https://github.com/Sumoy12/Validador_seguridad.git'
             }
         }
 
